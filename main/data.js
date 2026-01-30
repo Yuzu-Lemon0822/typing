@@ -1,5 +1,24 @@
 export const texts = [
-  {display: "私はプログラミングが大好きです", internal: "わたしはぷろぐらみんぐがだいすきです"}
+  { display: "私はプログラミングが大好きです", internal: "わたしはぷろぐらみんぐがだいすきです" },
+  { display: "毎日コードを書くのは楽しい", internal: "まいにちこーどをかくのはたのしい" },
+  { display: "タイピングが速くなりたい", internal: "たいぴんぐがはやくなりたい" },
+  { display: "エラーは成長のチャンスだ", internal: "えらーはせいちょうのちゃんすだ" },
+  { display: "考えることが一番大切", internal: "かんがえることがいちばんたいせつ" },
+  { display: "ゲームを作るのは面白い", internal: "げーむをつくるのはおもしろい" },
+  { display: "今日も少しずつ進もう", internal: "きょうもすこしずつすすもう" },
+  { display: "失敗してもやり直せる", internal: "しっぱいしてもやりなおせる" },
+  { display: "ローマ字入力に慣れてきた", internal: "ろーまじにゅうりょくになれてきた" },
+  { display: "集中すると時間を忘れる", internal: "しゅうちゅうするとじかんをわすれる" },
+  { display: "分からない所は調べよう", internal: "わからないところはしらべよう" },
+  { display: "一行ずつ理解していく", internal: "いちぎょうずつりかいしていく" },
+  { display: "自分で作るとよく覚える", internal: "じぶんでつくるとよくおぼえる" },
+  { display: "コードは正直だ", internal: "こーどはしょうじきだ" },
+  { display: "少し前より成長した", internal: "すこしまえよりせいちょうした" },
+  { display: "今日の自分は昨日より強い", internal: "きょうのじぶんはきのうよりつよい" },
+  { display: "完成した時が一番嬉しい", internal: "かんせいしたときがいちばんうれしい" },
+  { display: "練習すれば必ず上手くなる", internal: "れんしゅうすればかならずうまくなる" },
+  { display: "次はもっと難しいことをしよう", internal: "つぎはもっとむずかしいことをしよう" },
+  { display: "作りたい物を形にする", internal: "つくりたいものをかたちにする" }
 ];
 
 export const  romaList = {
@@ -117,4 +136,5 @@ export const  romaList = {
   "ふぃ":["fi"],
   "ふぇ":["fe"],
   "ふぉ":["fo"],
+  "ー":["-"],
 }
