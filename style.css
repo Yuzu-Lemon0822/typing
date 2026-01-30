@@ -67,3 +67,8 @@ body {
 .rest {
   color: #aaa;
 }
+
+.miss {
+  animation: shake 0.1s;
+  color: red;
+}

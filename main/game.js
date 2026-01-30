@@ -3,6 +3,7 @@ import { texts, romaList } from "./data.js";
 let jpEl;
 let furiganaEl;
 let romaEl;
+let displayEl;
 
 // 表示用
 let displayText = "";
@@ -14,6 +15,7 @@ let romaIndex = 0;
 let currentRomaCandidates = [];
 
 export function initGame() {
+  displayEl = document.getElementById("display-box");
   jpEl = document.getElementById("jp-text");
   furiganaEl = document.getElementById("furigana");
   romaEl = document.getElementById("roma-text");
@@ -145,6 +147,6 @@ function updateText() {
 }
 
 function miss() {
-  textEl.classList.add("miss");
-  setTimeout(() => textEl.classList.remove("miss"), 100);
+  displayEl.classList.add("miss");
+  setTimeout(() => displayEl.classList.remove("miss"), 100);
 }
