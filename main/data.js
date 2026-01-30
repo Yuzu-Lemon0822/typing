@@ -1,9 +1,5 @@
-export const words = [
-  "hello",
-  "world",
-  "typing",
-  "game",
-  "javascript"
+export const texts = [
+  {display: "私はプログラミングが大好きです", internal: "わたしはぷろぐらみんぐがだいすきです"}
 ];
 
 export const  romaList = {
