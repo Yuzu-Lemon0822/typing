@@ -1,0 +1,16 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+.done {
+  color: green;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.miss {
+  color: red;
+}
