@@ -6,8 +6,31 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Typing Game</h1>
-  <p id="text"></p>
+
+  <div class="game-container">
+    <!-- 1: タイトル -->
+    <h1 class="title">⌨️ タイピングゲーム</h1>
+
+    <!-- 表示エリア -->
+    <div class="display-box">
+
+      <!-- 3: ふりがな（内部） -->
+      <div class="furigana">
+        <span class="done">に</span><span class="current">ほ</span><span class="rest">んご</span>
+      </div>
+
+      <!-- 2: 日本語 -->
+      <div class="jp-text">
+        <span class="done">日</span><span class="current">本</span><span class="rest">語</span>
+      </div>
+
+      <!-- 4: ローマ字 -->
+      <div class="roma-text">
+        <span class="done">ni</span><span class="current">ho</span><span class="rest">ngo</span>
+      </div>
+
+    </div>
+  </div>
 
   <script type="module" src="main.js"></script>
 </body>

@@ -1,16 +1,69 @@
+/* 全体 */
 body {
-  font-family: monospace;
+  margin: 0;
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ゲーム全体 */
+.game-container {
+  background: #fff;
+  padding: 32px 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  width: 420px;
   text-align: center;
 }
 
+/* タイトル */
+.title {
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+/* 表示枠 */
+.display-box {
+  padding: 20px;
+  border-radius: 12px;
+  background: #fafafa;
+  box-shadow: inset 0 0 0 2px #eee;
+}
+
+/* ふりがな */
+.furigana {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+/* 日本語 */
+.jp-text {
+  font-size: 32px;
+  margin: 6px 0;
+}
+
+/* ローマ字 */
+.roma-text {
+  font-size: 18px;
+  color: #444;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+/* 共通：打った／今／残り */
 .done {
-  color: green;
+  color: #2ecc71;
 }
 
 .current {
-  text-decoration: underline;
+  background: #dff5e6;
+  border-bottom: 3px solid #2ecc71;
 }
 
-.miss {
-  color: red;
+.rest {
+  color: #aaa;
 }
